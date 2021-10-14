@@ -12,12 +12,41 @@
 </head>
 
 <body>
+    <div class="fixed-top" id="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">VILLCOIN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <div class="burguer"></div>
+                        <div class="burguer"></div>
+                        <div class="burguer"></div>
+                    </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link style" href="#specialists">SPECIALISTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link style" href="#local">LOCAL ENTREPRENEURS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link style" href="#register">REGISTER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
     <!-- VILLCOIN -->
 
-    <div>
-        <h1 class="title">VILLCOIN</h1>
-    </div>
     <div class="row">
         <div class="col-md-7 container">
             <div class="image-container">
@@ -25,7 +54,7 @@
             </div>
         </div>
         <div class="col-md-4 container">
-            <p>
+            <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
                 repudiandae vel ea minus quas doloribus. Sed, corrupti quas eius nam dolores exercitationem sapiente
@@ -37,11 +66,12 @@
 
     <!-- PERSONAS -->
 
+    <h2 class="title">LOCAL ENTREPRENEURS</h2>
     <div class="row">
         <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
             <h4 class="title">persona 3</h4>
-            <p>
+            <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
                 repudiandae vel ea minus quas doloribus. Sed, corrupti quas eius nam dolores exercitationem sapiente
@@ -52,7 +82,7 @@
         <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
             <h4 class="title">persona2</h4>
-            <p>
+            <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
                 repudiandae vel ea minus quas doloribus. Sed, corrupti quas eius nam dolores exercitationem sapiente
@@ -62,7 +92,7 @@
         <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
             <h4 class="title">persona 1</h4>
-            <p>
+            <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
                 repudiandae vel ea minus quas doloribus. Sed, corrupti quas eius nam dolores exercitationem sapiente
@@ -70,6 +100,7 @@
             </p>
         </div>
     </div>
+    <hr class="color">
 
     <!-- FORMULARIO -->
 
@@ -85,7 +116,7 @@
                 <input type="text" placeholder="Ingrese su nombre y su apellido" name="uname" required>
 
                 <label><b>Correo electronico</b></label>
-                <input type="text" placeholder="Ingrese su direccion de correo electronico" name="psw" required>
+                <input type="text" placeholder="yourmail@example.com" name="psw" required>
 
                 <button type="submit">Enviar</button>
             </div>

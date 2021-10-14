@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
 }
 
 .row {
@@ -22,6 +23,47 @@ img {
     color: black;
     font-weight: bold;
     text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+/*NAVBAR*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(36, 37, 40);
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(0, 132, 255);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: rgb(0, 132, 255);
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.burguer {
+    padding: 1px;
+    background-color: white;
+    margin-bottom: 33%;
 }
 
 /*PERSONAS*/
