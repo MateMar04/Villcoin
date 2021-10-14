@@ -1,3 +1,38 @@
+/*GENERAL*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: 5px;
+}
+
+.title {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*PERSONAS*/
+
+.persona {
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*FORULARIO*/
+
 form {
     border: 3px solid #f1f1f1;
 }
@@ -41,10 +76,6 @@ img.avatar {
     border-radius: 50%;
 }
 
-.container {
-    padding: 16px;
-}
-
 span.psw {
     float: right;
     padding-top: 16px;
@@ -62,22 +93,4 @@ span.psw {
 
 .centrar {
     text-align: center;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.row {
-    align-items: center;
-    margin-bottom: 3%;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    border: 5px;
 }

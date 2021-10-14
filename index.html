@@ -12,15 +12,17 @@
 </head>
 
 <body>
+
+    <!-- VILLCOIN -->
+
     <div>
-        <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">VILLCOIN</h1>
+        <h1 class="title">VILLCOIN</h1>
     </div>
     <div class="row">
         <div class="col-md-7 container">
             <div class="image-container">
-
+                <img src="./src/b-n-portada.jpg" style="border: 10px; border-radius: 30px;">
             </div>
-            <img src="./src/borrar-fondo-imagen.webp" style="border: 10px; border-radius: 30px;">
         </div>
         <div class="col-md-4 container">
             <p>
@@ -32,10 +34,13 @@
         </div>
     </div>
     <hr class="color">
+
+    <!-- PERSONAS -->
+
     <div class="row">
-        <div class="col-md-3 container">
+        <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
-            <h4>persona 3</h4>
+            <h4 class="title">persona 3</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
@@ -44,9 +49,9 @@
             </p>
 
         </div>
-        <div class="col-md-3 container">
+        <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
-            <h4>persona2</h4>
+            <h4 class="title">persona2</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
@@ -54,35 +59,38 @@
                 consequatur perspiciatis accusamus inventore incidunt! Dicta, voluptatem iure?
             </p>
         </div>
-        <div class="col-md-3 container">
+        <div class="col-md-3 container persona">
             <img src="./src/logo villoing.svg" style="border: 10px; border-radius: 30px;">
-            <h4>persona 1</h4>
+            <h4 class="title">persona 1</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa similique provident qui nostrum. Molestiae
                 sapiente odio voluptatibus. Architecto animi dolore sit quaerat assumenda cumque a nesciunt, qui, earum
                 repudiandae vel ea minus quas doloribus. Sed, corrupti quas eius nam dolores exercitationem sapiente
                 consequatur perspiciatis accusamus inventore incidunt! Dicta, voluptatem iure?
             </p>
-        </div>x
-
-        <div>
-            <h2 class="centrar">Registrate</h2>
-            <form action="/action_page.php">
-                <div class="imgcontainer">
-                    <img src="./src/logonegro.png" alt="Avatar" class="avatar">
-                </div>
-
-                <div class="container">
-                    <label><b>Nombre y Apellido</b></label>
-                    <input type="text" placeholder="Ingrese su nombre y su apellido" name="uname" required>
-
-                    <label><b>Correo electronico</b></label>
-                    <input type="text" placeholder="Ingrese su direccion de correo electronico" name="psw" required>
-
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
         </div>
+    </div>
+
+    <!-- FORMULARIO -->
+
+    <div class="container">
+        <h2 class="title">Registrate</h2>
+        <form action="/action_page.php">
+            <div class="imgcontainer">
+                <img src="./src/logonegro.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label><b>Nombre y Apellido</b></label>
+                <input type="text" placeholder="Ingrese su nombre y su apellido" name="uname" required>
+
+                <label><b>Correo electronico</b></label>
+                <input type="text" placeholder="Ingrese su direccion de correo electronico" name="psw" required>
+
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 
 
 </body>
