@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
       
 form {
@@ -75,7 +74,8 @@ span.psw {
 
 .centrar{
     text-align: center;
-=======
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -92,5 +92,4 @@ img {
     margin-left: 0;
     margin-right: 0;
     border: 5px;
->>>>>>> c373d91a549b4f2d3c0e7ee44c017fb6ac867eb8
 }
