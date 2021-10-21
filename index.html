@@ -51,7 +51,7 @@
             <img src="./src/portrait-edited.png" class="img-portrait">
         </div>
     </div>
-    
+
     <hr class="color">
 
     <!-- ABOUT -->
@@ -77,7 +77,7 @@
     <!-- PERSONAS -->
 
     <h2 class="title">LOCAL ENTREPRENEURS</h2>
-    <div class="row" id="local" >
+    <div class="row" id="local">
 
         <div class="col-md-3 container persona">
 
@@ -118,19 +118,19 @@
 
     <div class="container">
         <h2 class="title">Registrate</h2>
-        <form action="/action_page.php">
-            <div class="imgcontainer" id= "register" >
+        <form>
+            <div class="imgcontainer" id="register">
                 <img src="./src/logonegro.png" alt="Avatar" class="avatar border">
             </div>
 
             <div class="container">
                 <label><b>Nombre y Apellido</b></label>
-                <input type="text" placeholder="Ingrese su nombre y su apellido" name="uname" required>
+                <input type="text" placeholder="Ingrese su nombre y su apellido" name="uname" required id="nombre">
 
                 <label><b>Correo electronico</b></label>
-                <input type="text" placeholder="yourmail@example.com" name="psw" required>
+                <input type="text" placeholder="yourmail@example.com" name="psw" required id="mail">
 
-                <button type="submit">Enviar</button>
+                <button type="submit" onclick="sumbit()">Enviar</button>
             </div>
         </form>
     </div>
