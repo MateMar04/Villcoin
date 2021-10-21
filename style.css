@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Roboto;
+    overflow-x: hidden;
 }
 
 .row {
@@ -66,11 +67,20 @@ nav {
     margin-bottom: 33%;
 }
 
+/*PORTADA*/
+
+.img-portrait {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /*PERSONAS*/
 
 .persona {
     border-radius: 20px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*FORULARIO*/
