@@ -24,6 +24,7 @@ img {
     color: black;
     font-weight: bold;
     text-align: center;
+    padding-top: 4%;
 }
 
 .info {
@@ -171,4 +172,18 @@ span.psw {
 
 .centrar {
     text-align: center;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: rgb(36, 37, 40);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.rights {
+    text-align: left;
+    font-size: smaller;
 }
